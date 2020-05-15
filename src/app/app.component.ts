@@ -19,10 +19,9 @@ export class AppComponent implements OnInit {
   ngOnInit(){
     this.sibbling.currentMessage.subscribe(message1=>this.message1=message1)
     }
-
     newmessage()
     {
-      this.sibbling.changeMessage("hi naveen this obsarble");
+      this.sibbling.changeMessage("hi naveen this obsarble nfcfgffg");
     }
 
 }
